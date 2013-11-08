@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA028C1818256AA1002189F6 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA028C1718256AA1002189F6 /* Social.framework */; };
 		CAC6514018220C810014376E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC6513F18220C810014376E /* UIKit.framework */; };
 		CAC6514218220C810014376E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC6514118220C810014376E /* Foundation.framework */; };
 		CAC6514418220C810014376E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC6514318220C810014376E /* CoreGraphics.framework */; };
@@ -18,9 +19,12 @@
 		CAC6515618220C820014376E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAC6515518220C820014376E /* Default-568h@2x.png */; };
 		CAC6515918220C820014376E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC6515718220C820014376E /* MainStoryboard.storyboard */; };
 		CAC6515C18220C820014376E /* Gameday_LocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC6515B18220C820014376E /* Gameday_LocalViewController.m */; };
+		CAE7A864182625CB00AF5684 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE7A863182625CB00AF5684 /* NavigationViewController.m */; };
+		CAF534F31828AA480080A0ED /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF534F21828AA480080A0ED /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA028C1718256AA1002189F6 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		CAC6513C18220C810014376E /* Game Day Local.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Day Local.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC6513F18220C810014376E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CAC6514118220C810014376E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +41,9 @@
 		CAC6515818220C820014376E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CAC6515A18220C820014376E /* Gameday_LocalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gameday_LocalViewController.h; sourceTree = "<group>"; };
 		CAC6515B18220C820014376E /* Gameday_LocalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gameday_LocalViewController.m; sourceTree = "<group>"; };
+		CAE7A862182625CB00AF5684 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		CAE7A863182625CB00AF5684 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		CAF534F21828AA480080A0ED /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF534F31828AA480080A0ED /* CoreLocation.framework in Frameworks */,
+				CA028C1818256AA1002189F6 /* Social.framework in Frameworks */,
 				CAC6514018220C810014376E /* UIKit.framework in Frameworks */,
 				CAC6514218220C810014376E /* Foundation.framework in Frameworks */,
 				CAC6514418220C810014376E /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +82,8 @@
 		CAC6513E18220C810014376E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CAF534F21828AA480080A0ED /* CoreLocation.framework */,
+				CA028C1718256AA1002189F6 /* Social.framework */,
 				CAC6513F18220C810014376E /* UIKit.framework */,
 				CAC6514118220C810014376E /* Foundation.framework */,
 				CAC6514318220C810014376E /* CoreGraphics.framework */,
@@ -89,6 +100,8 @@
 				CAC6515A18220C820014376E /* Gameday_LocalViewController.h */,
 				CAC6515B18220C820014376E /* Gameday_LocalViewController.m */,
 				CAC6514618220C810014376E /* Supporting Files */,
+				CAE7A862182625CB00AF5684 /* NavigationViewController.h */,
+				CAE7A863182625CB00AF5684 /* NavigationViewController.m */,
 			);
 			path = "Game Day Local";
 			sourceTree = "<group>";
@@ -174,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAE7A864182625CB00AF5684 /* NavigationViewController.m in Sources */,
 				CAC6514C18220C810014376E /* main.m in Sources */,
 				CAC6515018220C810014376E /* Gameday_LocalAppDelegate.m in Sources */,
 				CAC6515C18220C820014376E /* Gameday_LocalViewController.m in Sources */,
@@ -299,6 +313,7 @@
 				CAC6516118220C820014376E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

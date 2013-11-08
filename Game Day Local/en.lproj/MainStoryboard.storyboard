@@ -1,23 +1,269 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="01I-Bb-Us6">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <deployment defaultVersion="1552" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--Gameday Local View Controller - Game Day Local-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="Gameday_LocalViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5Rn-XE-1Da"/>
+                        <viewControllerLayoutGuide type="bottom" id="FHp-49-0r5"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Home" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afS-dF-LUv">
+                                <rect key="frame" x="137" y="249" width="46" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Game Day Local" id="Fkk-C9-mhK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1346" y="-1295"/>
+        </scene>
+        <!--View Controller - Game Day Local-->
+        <scene sceneID="Xj9-hn-NPG">
+            <objects>
+                <viewController id="gX5-tL-GoN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1SM-HP-Ro3"/>
+                        <viewControllerLayoutGuide type="bottom" id="ORd-2T-1ts"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qbU-H8-TJ1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calendar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1T9-Xl-cLr">
+                                <rect key="frame" x="125" y="249" width="70" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Game Day Local" id="hcE-jO-1yp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dMh-yt-7QX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1341" y="-625"/>
+        </scene>
+        <!--View Controller - Game Day Local-->
+        <scene sceneID="mDr-Ee-fpE">
+            <objects>
+                <viewController id="mag-d2-zDo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L5E-Up-Se7"/>
+                        <viewControllerLayoutGuide type="bottom" id="gbs-1G-ETh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mLr-Sz-6Kc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Camera" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0YB-Ub-Qa8">
+                                <rect key="frame" x="130" y="249" width="61" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Game Day Local" id="R9Q-Px-6dj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xh2-lj-GkJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1341" y="44"/>
+        </scene>
+        <!--View Controller - Game Day Local-->
+        <scene sceneID="lOQ-UF-P1b">
+            <objects>
+                <viewController id="Geu-Rm-Q93" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LOI-8L-rgD"/>
+                        <viewControllerLayoutGuide type="bottom" id="kQ1-An-VEa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4I0-W6-9dN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Favorites" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLQ-Jb-Vve">
+                                <rect key="frame" x="125" y="249" width="71" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Game Day Local" id="pcT-fN-GFE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SuX-aR-t5A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1346" y="721"/>
+        </scene>
+        <!--View Controller - Game Day Local-->
+        <scene sceneID="bw3-zh-ITr">
+            <objects>
+                <viewController id="7b4-wX-Fn2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="edG-uB-Vfx"/>
+                        <viewControllerLayoutGuide type="bottom" id="IKz-Ck-Dsd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xJX-os-WLO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Settings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rDS-5D-Bfi">
+                                <rect key="frame" x="129" y="249" width="63" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Game Day Local" id="vUa-TA-nEB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LVb-Bg-EBa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1346" y="1396"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="6NO-IE-Ept">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="01I-Bb-Us6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="4VP-xd-F46">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="LXu-N2-LgR" kind="relationship" relationship="viewControllers" id="BMN-wj-iNs"/>
+                        <segue destination="Bty-5g-TmU" kind="relationship" relationship="viewControllers" id="HjZ-23-pKA"/>
+                        <segue destination="lnw-8Q-4DN" kind="relationship" relationship="viewControllers" id="Frc-aG-J8Y"/>
+                        <segue destination="tXd-m8-fjH" kind="relationship" relationship="viewControllers" id="Tak-AI-8kD"/>
+                        <segue destination="Op8-lb-jc8" kind="relationship" relationship="viewControllers" id="cMY-4J-7Bp"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="46n-O3-ho9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="272" y="44"/>
+        </scene>
+        <!--Navigation View Controller - Home-->
+        <scene sceneID="kgb-JJ-mPJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LXu-N2-LgR" customClass="NavigationViewController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" id="BdB-Hk-Nyr"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BFy-cv-a2v">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="8Dq-el-yyl">
+                        <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="pUI-MJ-Ngk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="txd-zS-79G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="815" y="-1295"/>
+        </scene>
+        <!--Navigation View Controller - Calendar-->
+        <scene sceneID="YeI-ND-fVr">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Bty-5g-TmU" customClass="NavigationViewController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Calendar" id="LxC-DI-55l"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="G3R-0h-bHp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gX5-tL-GoN" kind="relationship" relationship="rootViewController" id="e0J-9z-tGd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Lt-DM-tpg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="815" y="-625"/>
+        </scene>
+        <!--Navigation View Controller - Camera-->
+        <scene sceneID="cQQ-2q-ysf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lnw-8Q-4DN" customClass="NavigationViewController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Camera" id="a5w-o5-M0k"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bQX-wk-8FC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mag-d2-zDo" kind="relationship" relationship="rootViewController" id="GDc-Mk-gcY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Exm-iV-F7f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="815" y="44"/>
+        </scene>
+        <!--Navigation View Controller - Favorites-->
+        <scene sceneID="UZq-sn-79W">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tXd-m8-fjH" customClass="NavigationViewController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Favorites" id="zU2-jb-YKh"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Io-3F-efx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Geu-Rm-Q93" kind="relationship" relationship="rootViewController" id="4or-Fy-rYd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PBj-Rp-Iqk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="820" y="721"/>
+        </scene>
+        <!--Navigation View Controller - Settings-->
+        <scene sceneID="P4m-tc-IWW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Op8-lb-jc8" customClass="NavigationViewController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Settings" id="7Tv-cy-znG"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="d6f-21-0n0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7b4-wX-Fn2" kind="relationship" relationship="rootViewController" id="VnZ-e6-eot"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="muz-4d-dVv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="820" y="1396"/>
         </scene>
     </scenes>
+    <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
