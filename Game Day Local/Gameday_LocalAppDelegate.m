@@ -18,6 +18,9 @@
     [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName : [UIColor whiteColor]}];
     [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0xCC0000)];
     
+    [[UITabBar appearance] setBarTintColor:UIColorFromRGB(0x000000)];
+    [[UITabBar appearance] setSelectionIndicatorImage:[UIImage imageNamed:@"icon-selected"]];
+    
     // Override point for customization after application launch.
     return YES;
 }

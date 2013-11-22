@@ -2,7 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="01I-Bb-Us6">
     <dependencies>
         <deployment defaultVersion="1552" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
     </dependencies>
     <scenes>
         <!--Gameday Local View Controller - Game Day Local-->
@@ -71,8 +71,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calendar" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1T9-Xl-cLr">
-                                <rect key="frame" x="125" y="249" width="70" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Photos" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1T9-Xl-cLr">
+                                <rect key="frame" x="133" y="249" width="55" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -98,8 +98,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Camera" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0YB-Ub-Qa8">
-                                <rect key="frame" x="130" y="249" width="61" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Favorites" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0YB-Ub-Qa8">
+                                <rect key="frame" x="125" y="249" width="71" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -125,8 +125,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Favorites" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLQ-Jb-Vve">
-                                <rect key="frame" x="125" y="249" width="71" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Notifications" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fLQ-Jb-Vve">
+                                <rect key="frame" x="112" y="249" width="96" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -172,8 +172,9 @@
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="01I-Bb-Us6" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="4VP-xd-F46">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="4VP-xd-F46">
+                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
@@ -213,11 +214,11 @@
             </objects>
             <point key="canvasLocation" x="815" y="-1295"/>
         </scene>
-        <!--Navigation View Controller - Calendar-->
+        <!--Navigation View Controller - Photos-->
         <scene sceneID="YeI-ND-fVr">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Bty-5g-TmU" customClass="NavigationViewController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Calendar" id="LxC-DI-55l"/>
+                    <tabBarItem key="tabBarItem" title="Photos" id="LxC-DI-55l"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="G3R-0h-bHp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -232,11 +233,11 @@
             </objects>
             <point key="canvasLocation" x="815" y="-625"/>
         </scene>
-        <!--Navigation View Controller - Camera-->
+        <!--Navigation View Controller-->
         <scene sceneID="cQQ-2q-ysf">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lnw-8Q-4DN" customClass="NavigationViewController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Camera" id="a5w-o5-M0k"/>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="a5w-o5-M0k"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bQX-wk-8FC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -251,11 +252,11 @@
             </objects>
             <point key="canvasLocation" x="815" y="44"/>
         </scene>
-        <!--Navigation View Controller - Favorites-->
+        <!--Navigation View Controller - Notifications-->
         <scene sceneID="UZq-sn-79W">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tXd-m8-fjH" customClass="NavigationViewController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Favorites" id="zU2-jb-YKh"/>
+                    <tabBarItem key="tabBarItem" title="Notifications" id="zU2-jb-YKh"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Io-3F-efx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -274,7 +275,7 @@
         <scene sceneID="P4m-tc-IWW">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Op8-lb-jc8" customClass="NavigationViewController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Settings" id="7Tv-cy-znG"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="icon-settings.png" id="7Tv-cy-znG"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="d6f-21-0n0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -290,7 +291,10 @@
             <point key="canvasLocation" x="820" y="1396"/>
         </scene>
     </scenes>
-    <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+    <resources>
+        <image name="icon-settings.png" width="31" height="31"/>
+    </resources>
+    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

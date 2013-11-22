@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		CA028C1818256AA1002189F6 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA028C1718256AA1002189F6 /* Social.framework */; };
+		CAAF5E20183F23F900D67B7D /* icon-settings.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF5E1E183F23F900D67B7D /* icon-settings.png */; };
+		CAAF5E21183F23F900D67B7D /* icon-settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF5E1F183F23F900D67B7D /* icon-settings@2x.png */; };
+		CAAF5E27183FCB6900D67B7D /* icon-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF5E26183FCB6900D67B7D /* icon-selected@2x.png */; };
+		CAAF5E29183FCC7F00D67B7D /* icon-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF5E28183FCC7F00D67B7D /* icon-selected.png */; };
 		CAC6514018220C810014376E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC6513F18220C810014376E /* UIKit.framework */; };
 		CAC6514218220C810014376E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC6514118220C810014376E /* Foundation.framework */; };
 		CAC6514418220C810014376E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC6514318220C810014376E /* CoreGraphics.framework */; };
@@ -25,6 +29,10 @@
 
 /* Begin PBXFileReference section */
 		CA028C1718256AA1002189F6 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CAAF5E1E183F23F900D67B7D /* icon-settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-settings.png"; sourceTree = "<group>"; };
+		CAAF5E1F183F23F900D67B7D /* icon-settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-settings@2x.png"; sourceTree = "<group>"; };
+		CAAF5E26183FCB6900D67B7D /* icon-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-selected@2x.png"; sourceTree = "<group>"; };
+		CAAF5E28183FCC7F00D67B7D /* icon-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-selected.png"; sourceTree = "<group>"; };
 		CAC6513C18220C810014376E /* Game Day Local.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Day Local.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC6513F18220C810014376E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CAC6514118220C810014376E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -94,9 +102,13 @@
 		CAC6514518220C810014376E /* Game Day Local */ = {
 			isa = PBXGroup;
 			children = (
+				CAAF5E28183FCC7F00D67B7D /* icon-selected.png */,
+				CAAF5E26183FCB6900D67B7D /* icon-selected@2x.png */,
 				CAC6514E18220C810014376E /* Gameday_LocalAppDelegate.h */,
 				CAC6514F18220C810014376E /* Gameday_LocalAppDelegate.m */,
 				CAC6515718220C820014376E /* MainStoryboard.storyboard */,
+				CAAF5E1E183F23F900D67B7D /* icon-settings.png */,
+				CAAF5E1F183F23F900D67B7D /* icon-settings@2x.png */,
 				CAC6515A18220C820014376E /* Gameday_LocalViewController.h */,
 				CAC6515B18220C820014376E /* Gameday_LocalViewController.m */,
 				CAC6514618220C810014376E /* Supporting Files */,
@@ -172,9 +184,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAAF5E27183FCB6900D67B7D /* icon-selected@2x.png in Resources */,
+				CAAF5E21183F23F900D67B7D /* icon-settings@2x.png in Resources */,
+				CAAF5E29183FCC7F00D67B7D /* icon-selected.png in Resources */,
 				CAC6514A18220C810014376E /* InfoPlist.strings in Resources */,
 				CAC6515218220C810014376E /* Default.png in Resources */,
 				CAC6515418220C810014376E /* Default@2x.png in Resources */,
+				CAAF5E20183F23F900D67B7D /* icon-settings.png in Resources */,
 				CAC6515618220C820014376E /* Default-568h@2x.png in Resources */,
 				CAC6515918220C820014376E /* MainStoryboard.storyboard in Resources */,
 			);
