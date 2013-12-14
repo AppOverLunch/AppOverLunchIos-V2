@@ -172,7 +172,7 @@
             <objects>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="01I-Bb-Us6" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="4VP-xd-F46">
                         <rect key="frame" x="0.0" y="0.0" width="0.0" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -190,11 +190,13 @@
             </objects>
             <point key="canvasLocation" x="272" y="44"/>
         </scene>
-        <!--Navigation View Controller - Home-->
+        <!--Home-->
         <scene sceneID="kgb-JJ-mPJ">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LXu-N2-LgR" customClass="NavigationViewController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="BdB-Hk-Nyr"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LXu-N2-LgR" customClass="Home" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="icon-home.png" id="BdB-Hk-Nyr">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="BFy-cv-a2v">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -214,11 +216,13 @@
             </objects>
             <point key="canvasLocation" x="815" y="-1295"/>
         </scene>
-        <!--Navigation View Controller - Photos-->
+        <!--Photos-->
         <scene sceneID="YeI-ND-fVr">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Bty-5g-TmU" customClass="NavigationViewController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Photos" id="LxC-DI-55l"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Bty-5g-TmU" customClass="Photos" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="icon-photos.png" id="LxC-DI-55l">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="G3R-0h-bHp">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -233,11 +237,13 @@
             </objects>
             <point key="canvasLocation" x="815" y="-625"/>
         </scene>
-        <!--Navigation View Controller-->
+        <!--Favorites-->
         <scene sceneID="cQQ-2q-ysf">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lnw-8Q-4DN" customClass="NavigationViewController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="a5w-o5-M0k"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lnw-8Q-4DN" customClass="Favorites" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" image="icon-favorites.png" id="a5w-o5-M0k">
+                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bQX-wk-8FC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -252,11 +258,13 @@
             </objects>
             <point key="canvasLocation" x="815" y="44"/>
         </scene>
-        <!--Navigation View Controller - Notifications-->
+        <!--Notifications-->
         <scene sceneID="UZq-sn-79W">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tXd-m8-fjH" customClass="NavigationViewController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Notifications" id="zU2-jb-YKh"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tXd-m8-fjH" customClass="Notifications" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="icon-notifications.png" id="zU2-jb-YKh">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Io-3F-efx">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -271,11 +279,13 @@
             </objects>
             <point key="canvasLocation" x="820" y="721"/>
         </scene>
-        <!--Navigation View Controller - Settings-->
+        <!--Settings-->
         <scene sceneID="P4m-tc-IWW">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Op8-lb-jc8" customClass="NavigationViewController" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Settings" image="icon-settings.png" id="7Tv-cy-znG"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Op8-lb-jc8" customClass="Settings" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="icon-settings.png" id="7Tv-cy-znG">
+                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="d6f-21-0n0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -292,7 +302,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icon-settings.png" width="31" height="31"/>
+        <image name="icon-favorites.png" width="29" height="29"/>
+        <image name="icon-home.png" width="29" height="29"/>
+        <image name="icon-notifications.png" width="30" height="30"/>
+        <image name="icon-photos.png" width="30" height="30"/>
+        <image name="icon-settings.png" width="29" height="29"/>
     </resources>
     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
