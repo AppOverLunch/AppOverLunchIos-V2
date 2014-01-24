@@ -16,8 +16,6 @@
 		CA26CE0218516E01002DF403 /* icon-photos-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA26CDFE18516E01002DF403 /* icon-photos-selected@2x.png */; };
 		CA26CE0318516E01002DF403 /* icon-photos.png in Resources */ = {isa = PBXBuildFile; fileRef = CA26CDFF18516E01002DF403 /* icon-photos.png */; };
 		CA26CE0418516E01002DF403 /* icon-photos@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA26CE0018516E01002DF403 /* icon-photos@2x.png */; };
-		CAAF5E2C1851174B00D67B7D /* icon-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF5E2A1851174B00D67B7D /* icon-selected.png */; };
-		CAAF5E2D1851174B00D67B7D /* icon-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAAF5E2B1851174B00D67B7D /* icon-selected@2x.png */; };
 		CAC60F351851879D007DF894 /* icon-favorites-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = CAC60F311851879D007DF894 /* icon-favorites-selected.png */; };
 		CAC60F361851879D007DF894 /* icon-favorites-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAC60F321851879D007DF894 /* icon-favorites-selected@2x.png */; };
 		CAC60F371851879D007DF894 /* icon-favorites.png in Resources */ = {isa = PBXBuildFile; fileRef = CAC60F331851879D007DF894 /* icon-favorites.png */; };
@@ -33,6 +31,10 @@
 		CAC6515618220C820014376E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAC6515518220C820014376E /* Default-568h@2x.png */; };
 		CAC6515918220C820014376E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC6515718220C820014376E /* MainStoryboard.storyboard */; };
 		CAC6515C18220C820014376E /* Gameday_LocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC6515B18220C820014376E /* Gameday_LocalViewController.m */; };
+		CAD4267C1891E5B600B1F3BE /* homebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD4267B1891E5B600B1F3BE /* homebg@2x.png */; };
+		CAD426891892DF3D00B1F3BE /* icons-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD426871892DF3D00B1F3BE /* icons-selected.png */; };
+		CAD4268A1892DF3D00B1F3BE /* icons-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD426881892DF3D00B1F3BE /* icons-selected@2x.png */; };
+		CAD4268C1892E11300B1F3BE /* button-home-mygameday@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD4268B1892E11300B1F3BE /* button-home-mygameday@2x.png */; };
 		CAD99D9F185180B900778F44 /* icon-notifications-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD99D9B185180B900778F44 /* icon-notifications-selected.png */; };
 		CAD99DA0185180B900778F44 /* icon-notifications-selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD99D9C185180B900778F44 /* icon-notifications-selected@2x.png */; };
 		CAD99DA1185180B900778F44 /* icon-notifications.png in Resources */ = {isa = PBXBuildFile; fileRef = CAD99D9D185180B900778F44 /* icon-notifications.png */; };
@@ -60,8 +62,6 @@
 		CA26CDFE18516E01002DF403 /* icon-photos-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-photos-selected@2x.png"; sourceTree = "<group>"; };
 		CA26CDFF18516E01002DF403 /* icon-photos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-photos.png"; sourceTree = "<group>"; };
 		CA26CE0018516E01002DF403 /* icon-photos@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-photos@2x.png"; sourceTree = "<group>"; };
-		CAAF5E2A1851174B00D67B7D /* icon-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-selected.png"; sourceTree = "<group>"; };
-		CAAF5E2B1851174B00D67B7D /* icon-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-selected@2x.png"; sourceTree = "<group>"; };
 		CAC60F311851879D007DF894 /* icon-favorites-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-favorites-selected.png"; sourceTree = "<group>"; };
 		CAC60F321851879D007DF894 /* icon-favorites-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-favorites-selected@2x.png"; sourceTree = "<group>"; };
 		CAC60F331851879D007DF894 /* icon-favorites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-favorites.png"; sourceTree = "<group>"; };
@@ -82,6 +82,10 @@
 		CAC6515818220C820014376E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		CAC6515A18220C820014376E /* Gameday_LocalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Gameday_LocalViewController.h; sourceTree = "<group>"; };
 		CAC6515B18220C820014376E /* Gameday_LocalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gameday_LocalViewController.m; sourceTree = "<group>"; };
+		CAD4267B1891E5B600B1F3BE /* homebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "homebg@2x.png"; sourceTree = "<group>"; };
+		CAD426871892DF3D00B1F3BE /* icons-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-selected.png"; sourceTree = "<group>"; };
+		CAD426881892DF3D00B1F3BE /* icons-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons-selected@2x.png"; sourceTree = "<group>"; };
+		CAD4268B1892E11300B1F3BE /* button-home-mygameday@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-home-mygameday@2x.png"; sourceTree = "<group>"; };
 		CAD99D9B185180B900778F44 /* icon-notifications-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-notifications-selected.png"; sourceTree = "<group>"; };
 		CAD99D9C185180B900778F44 /* icon-notifications-selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-notifications-selected@2x.png"; sourceTree = "<group>"; };
 		CAD99D9D185180B900778F44 /* icon-notifications.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-notifications.png"; sourceTree = "<group>"; };
@@ -153,6 +157,9 @@
 		CAC6514518220C810014376E /* Game Day Local */ = {
 			isa = PBXGroup;
 			children = (
+				CAD4268B1892E11300B1F3BE /* button-home-mygameday@2x.png */,
+				CAD426871892DF3D00B1F3BE /* icons-selected.png */,
+				CAD426881892DF3D00B1F3BE /* icons-selected@2x.png */,
 				CAC60F311851879D007DF894 /* icon-favorites-selected.png */,
 				CAC60F321851879D007DF894 /* icon-favorites-selected@2x.png */,
 				CAC60F331851879D007DF894 /* icon-favorites.png */,
@@ -173,11 +180,10 @@
 				CA26CDEA185128DD002DF403 /* icon-home@2x.png */,
 				CA26CDF9185133CA002DF403 /* icon-home-selected.png */,
 				CA26CDFA185133CA002DF403 /* icon-home.png */,
-				CAAF5E2A1851174B00D67B7D /* icon-selected.png */,
-				CAAF5E2B1851174B00D67B7D /* icon-selected@2x.png */,
 				CAC6514E18220C810014376E /* Gameday_LocalAppDelegate.h */,
 				CAC6514F18220C810014376E /* Gameday_LocalAppDelegate.m */,
 				CAC6515718220C820014376E /* MainStoryboard.storyboard */,
+				CAD4267B1891E5B600B1F3BE /* homebg@2x.png */,
 				CAFF90AB185174DD003681B8 /* Settings.h */,
 				CAFF90AC185174DD003681B8 /* Settings.m */,
 				CAFF90A818517450003681B8 /* Notifications.h */,
@@ -267,18 +273,17 @@
 				CAD99DA1185180B900778F44 /* icon-notifications.png in Resources */,
 				CAD99DA71851833900778F44 /* icon-settings-selected.png in Resources */,
 				CAD99DA0185180B900778F44 /* icon-notifications-selected@2x.png in Resources */,
-				CAAF5E2D1851174B00D67B7D /* icon-selected@2x.png in Resources */,
 				CAC6514A18220C810014376E /* InfoPlist.strings in Resources */,
 				CAC6515218220C810014376E /* Default.png in Resources */,
 				CA26CE0418516E01002DF403 /* icon-photos@2x.png in Resources */,
 				CA26CE0318516E01002DF403 /* icon-photos.png in Resources */,
-				CAAF5E2C1851174B00D67B7D /* icon-selected.png in Resources */,
 				CA26CDEB185128DD002DF403 /* icon-home-selected@2x.png in Resources */,
 				CAD99DA91851833900778F44 /* icon-settings.png in Resources */,
 				CAC60F381851879D007DF894 /* icon-favorites@2x.png in Resources */,
 				CA26CE0118516E01002DF403 /* icon-photos-selected.png in Resources */,
 				CA26CDFB185133CA002DF403 /* icon-home-selected.png in Resources */,
 				CA26CDFC185133CA002DF403 /* icon-home.png in Resources */,
+				CAD4267C1891E5B600B1F3BE /* homebg@2x.png in Resources */,
 				CAC6515418220C810014376E /* Default@2x.png in Resources */,
 				CA26CDEC185128DD002DF403 /* icon-home@2x.png in Resources */,
 				CAD99DAA1851833900778F44 /* icon-settings@2x.png in Resources */,
@@ -286,10 +291,13 @@
 				CAD99D9F185180B900778F44 /* icon-notifications-selected.png in Resources */,
 				CAC6515918220C820014376E /* MainStoryboard.storyboard in Resources */,
 				CAC60F351851879D007DF894 /* icon-favorites-selected.png in Resources */,
+				CAD426891892DF3D00B1F3BE /* icons-selected.png in Resources */,
 				CAC60F371851879D007DF894 /* icon-favorites.png in Resources */,
+				CAD4268A1892DF3D00B1F3BE /* icons-selected@2x.png in Resources */,
 				CAD99DA81851833900778F44 /* icon-settings-selected@2x.png in Resources */,
 				CAD99DA2185180B900778F44 /* icon-notifications@2x.png in Resources */,
 				CAC60F361851879D007DF894 /* icon-favorites-selected@2x.png in Resources */,
+				CAD4268C1892E11300B1F3BE /* button-home-mygameday@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
